@@ -16,3 +16,12 @@ poetry add 'fastapi[standard]' # instala o fastapi
 poetry shell # ativa o .venv 
 fastapi dev fast_zero/app.py
 ```
+
+## Ruff - linter and code formatter
+
+```bash
+poetry add --group dev ruff # add ruff
+poetry run ruff check # runs ruff
+poetry run ruff format . # formata o código de acordo com o padrão no pyproject
+```
+
